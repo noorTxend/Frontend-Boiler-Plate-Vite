@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["./*"],
+      "@components/*": ["./components/*"],
+      "@constants/*": ["./constants/*"],
+      "@Interfaces/*": ["./Interfaces/*"],
+      "@services/*": ["./services/*"],
+      "@svgs": ["./constants/utils/svgs.tsx"],
+      "@api": ["./constants/api.ts"],
+      "@images": ["./assets/images/"],
+      "@globalStyles": ["./App.css"],
+      "@redux/*": ["./redux/*"]
+    },
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "downlevelIteration": true,
+    "typeRoots": ["node_modules/@types", "node_modules"],
+    "allowJs": true,
+    "types": [],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"]
+}
